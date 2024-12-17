@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main(){
+  int number;
+  printf("Nhap 1 so: \n");
+  scanf("%d", &number);
+  if(number >= 0 ){
+    printf("So %d la so duong", number);
+  }else{
+    printf("So %d la so am", number);
+  }
+}
